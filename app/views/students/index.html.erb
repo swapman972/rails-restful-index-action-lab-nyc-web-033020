@@ -1,0 +1,8 @@
+<h1> List of students </h1>
+
+<% @students.each do |s|%>
+<%= s.first_name%>
+<%= s.last_name%><br>
+<%= s.created_at%><br>
+<%= s.updated_at%><br><br>
+<%end%>
